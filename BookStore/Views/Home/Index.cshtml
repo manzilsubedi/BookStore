@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BookModel>
+@{
+    ViewData["Title"] = "Home";
+}
+
+
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1> Welcome to Bookstore @ViewBag.Title </h1>
+        <p class="lead text-muted">
+            BookStore is an online bookstore, physically based in Kathmandu, Nepal, with an aim to create the largest community of book readers in Nepal.
+            News and events At Bookstore, you can browse and buy books online at the lowest everyday prices.
+        </p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Search Books</a>
+        </p>
+
+    </div>
+</section>
+
+<div class="py-5 bg-light">
+    <div class="container">
+        <h2>Top Rated Books</h2>
+        <div class="row">
+            @{
+                
+            }
+            @for (int i = 0; i < 5; i++)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                        <div class="card-body">
+                            <h3 class="card-title"></h3>
+                            <p class="card-text">book.Description</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                                </div>
+                                <small class="text-muted">book.Author</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+
+    </div>
+</div>

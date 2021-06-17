@@ -1,0 +1,72 @@
+﻿body {
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.imgcrs{
+    height:20rem;
+    width:2rem;
+}
+
+.box_size{
+    height:15rem;
+    width:1rem;
+}
+
+.photo_size{
+    height:25rem;
+    width:2.1rem;
+}
+
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0366d6;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.navbar{
+    overflow: hidden;
+ 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius:80%;
+}
+.text-center{
+    text-align:center;
+}
+
+.jumbotron {
+    background: none;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    white-space:nowrap;
+    line-height:60px;
+}
+
+.membership-img {
+    width:80%;
+}
+
